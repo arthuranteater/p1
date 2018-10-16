@@ -7,6 +7,37 @@ p {
   font-size: 18px;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+.button {
+  font-family: 'Raleway', sans-serif;
+  color: black
+}
+
+#one {
+  background-color: black;
+}
+
+
+
+#two {
+
+}
+
+#three {
+
+}
+
+#four {
+
+}
+
 #mobile-demo {
   width: auto
 }
