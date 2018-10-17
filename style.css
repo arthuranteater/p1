@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 
 body {
   font-family: 'Raleway', sans-serif;
 }
+
 p {
   font-size: 18px;
 }
@@ -22,12 +25,15 @@ a:hover {
 
 #one {
   background-color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 
 
 #two {
-
+  background-image: url("./assets/logos/movie-buddy-bg.png");
+  background-size: cover;
+  font-family: Helvetica;
 }
 
 #three {
