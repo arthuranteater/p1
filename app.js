@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
         alert("Success!")
         fetch('/forms')
           .then(function (response) {
-            return response.json()
+            return response
           })
-          .then(function (myJson) {
-            console.log(JSON.stringify(myJson))
+          .then(function (response) {
+            console.log(response)
           })
       })
       .catch(error => {
