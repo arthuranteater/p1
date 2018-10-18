@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const data = new FormData(form)
     data.set('form-name', 'contact');
     console.dir(data)
-    return fetch("/forms", {
+    fetch("/forms", {
       method: "POST",
       body: data
     })
@@ -41,5 +41,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
         console.error("Form submission FAIL:", error);
         alert('Message Failed');
       })
+
+    fetch('/forms')
+      .then(function (response) {
+        return response.json()
+      })
+      .then(function (myJson) {
+        console.log(JSON.stringify(myJson));
+      })
   })
+
+
+
+
 })
