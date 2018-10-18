@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const control = document.querySelector("#control")
   const carousel = document.querySelector(".carousel")
 
+  const site_id = "https://www.huntcodes.co/"
+
 
 
   control.addEventListener("click", event => {
@@ -36,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       .then(data => {
         console.log("Form submission success", data)
         alert("Success!")
-        fetch('/forms')
+        fetch(`/sites/${site_id}/forms`)
           .then(function (response) {
             return response
           })
