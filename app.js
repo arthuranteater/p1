@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const control = document.querySelector("#control")
   const carousel = document.querySelector(".carousel")
 
-  const site_id = "https://www.huntcodes.co"
+  const site_id = "www.huntcodes.co"
 
 
 
