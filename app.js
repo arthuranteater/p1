@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const data = new FormData(form)
     data.set('form-name', 'contact');
     console.dir(data)
-    return fetch("/", {
+    return fetch("/forms", {
       method: "POST",
       body: data
     })
