@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+nav {
+  background-color: #293e60;
+}
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -15,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #293e60;
 }
 
 .button {
