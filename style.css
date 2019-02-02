@@ -5,6 +5,43 @@ nav {
   background-color: #293e60;
 }
 
+.title {
+  font-size: 12px;
+}
+
+.about {
+  font-size: 16px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.contact {
+  font-size: 16px;
+  background-color: lightgray;
+  /* border-radius: 5px; */
+}
+
+.sub {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* .header {
+  border-bottom-style: solid;
+  border-bottom-color: #293e60;
+  border-top-style: solid;
+  border-top-color: #293e60;
+} */
+
+.break {
+  border-bottom-style: solid;
+  border-bottom-color: #293e60;
+}
+
+#navlink {
+  text-align: center;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -17,13 +54,52 @@ a {
   color: white;
 }
 
+.btn{
+  background-color: #293e60;
+}
+.btn:visited{
+  background-color: #293e60
+}
+.btn:hover {
+  background-color: #293e60
+}
+.btn:active{
+  background-color: grey;
+}
+.btn:focus{
+  background-color: grey;
+}
+
+
+input{
+  background-color: #293e60;
+}
+input:visited{
+  background-color: #293e60
+}
+input:hover {
+  background-color: white
+}
+input:active{
+  background-color: white
+}
+input:focus{
+  background-color: white
+}
+
 a:hover {
-  color: #293e60;
+  color: #967540;
+}
+
+button:hover {
+  color: #967540;
+
 }
 
 .button {
   font-family: 'Raleway', sans-serif;
-  color: black
+  background-color: #293e60;
+  color: white
 }
 
 #one {
@@ -49,4 +125,40 @@ a:hover {
 
 #mobile-demo {
   width: auto
+}
+
+.check[type="checkbox"]:checked + span:not(.lever):before {
+  border-right: 2px solid #967540;
+  border-bottom: 2px solid #967540;
+}
+
+.check[type="checkbox"]:not(.filled-in) + span:not(.lever):after {
+  border: 2px solid #293e60;
+}
+
+.checklabel {
+  color: #293e60;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #967540;
+  -webkit-box-shadow: 0 1px 0 0 #967540;
+          box-shadow: 0 1px 0 0 #967540;
+}
+
+.parallax-container {
+  height: 318px;
+
 }

@@ -7,20 +7,25 @@
   <title>Hunt Applegate: A Web Developer</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!-- <link type="text/css" rel="stylesheet" href="./materialize/css/materialize.css" media="screen,projection" /> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
+
+
+
 <body>
   <div class="navbar-fixed">
-    <nav class="nav-wrapper" style="font-family: 'Raleway', sans-serif;height: 100px">
-      <a href="index.html" class="brand-logo center" style="padding-left: 10px"><img src="./assets/pics/logo.png" alt="logo"
-          height="100" width="auto"></a>
+    <nav class="nav-wrapper" style="font-family: 'Raleway', sans-serif;height: 70px">
+      <a href="index.html" class="brand-logo" style="padding-left: 10px; text-align: center"><span class="name"></span>
+        <span class="title"></span>
+      </a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="black-text" href="#projects">Projects</a></li>
-        <li><a class="black-text" href="#about">About</a></li>
-        <li><a class="black-text" href="#contact">Contact</a></li>
+        <li><a class="white-text" href="#projects">Projects</a></li>
+        <li><a class="white-text" href="#about">About</a></li>
+        <li><a class="white-text" href="#contact">Contact</a></li>
         <!-- <li><a class="black-text" href="sass.html"><i class="material-icons">play_arrow</i></a></li>
         <li><a class="black-text" href="badges.html"><i class="material-icons">pause</i></a></li>
         <li><a class="black-text" href="sass.html"><i class="material-icons">stop</i></a></li> -->
@@ -42,7 +47,9 @@
 
   <div id="projects" class="section scrollspy white">
     <div class="row container">
-      <h2 class="header">My Projects</h2>
+      <p class="break"></p>
+      <h4 class="header">SOFTWARE DEVELOPMENT PROJECTS</h4>
+      <p class="break"></p>
       <div class="carousel carousel-slider center">
         <div id="one" class="carousel-item white-text" href="#one!">
           <a href="https://www.whatstheweatherin.com/" target="_blank">
@@ -71,40 +78,65 @@
     </div>
     <div class="row">
       <div id="control" class="center-align">
-        <a id="prev" class="btn orange accent-4 button prev"><i class="material-icons prev">arrow_back</i></a>
-        <a id="next" class="btn orange accent-4 button next"><i class="material-icons next">arrow_forward</i></a>
+        <a id="prev" class="btn button prev"><i class="material-icons prev">arrow_back</i></a>
+        <a id="next" class="btn button next"><i class="material-icons next">arrow_forward</i></a>
       </div>
     </div>
   </div>
 
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="./assets/pics/costa12.jpg" style="width: 100%; height: auto">
-    </div>
-  </div>
   <div id="about" class="section scrollspy white">
     <div class="row container">
-      <h2 class="header">About Me</h2>
-      <p>After running an insurance agency for five years, I realized that I was ready for a new challenge. I've always
-        enjoyed problem solving and logic problems. In addition I've always dreamed of designing and building useful
-        tools. These two interests led me to explore the world of computer programming.</p>
-      <p>I joined the Galvanize community to dive deeper. I reacently graduated from the Web Development Immersive
-        Program. It's a 6 month program that takes you from the basics to full stack web development. After graduating
-        I realized that this was only the beginning of my journey into software engineering. I'm currently working on a
-        React, Redux project to sharpen my skills. Please check out my blog for more on my latest projects.</p>
-      <p>When I'm not coding, I'm outside enjoying the beautiful mountains. I enjoy hiking,
-        fly-fishing, camping, and skiing. I'm a member of social clubs for travel, learning Spanish, and computer
-        programming. I'm a believer in meditation and living a healthy lifestyle.</p>
+      <p class="break"></p>
+      <h4 class="header">ABOUT ME</h4>
+      <p class="break"></p>
+      <br></br>
+      <div>
+        <img src="assets/pics/jshaun.png">
+        <br></br>
+        <span class="about"></span>
+
+        <p>Shortly after graduating college, I started my own insurance agency, Applegate
+          Consulting. After growing my
+          practice for 7 years, I was ready for a new challenge. I've always enjoyed problem solving and building
+          things.
+          These two interests led me to coding.</p>
+
+        <p>In 2017, I got my first taste of programming. I took a part-time class
+          with the Data Science program at Galvanize in Denver. I knew I was getting into something that could
+          challenge
+          me. I really enjoyed the challenge and the culture at Galvanize. I decided this was my next career! I
+          enrolled
+          in
+          the Web Development Immersive
+          Program through Galvanize in June of 2018. The 6 month program takes you from the basics to full stack web
+          development. I fought hard to gain as much knowledge as I could about Javascript, React.js, Node.js, and
+          other technologies.
+          I completed the infamous capstone project, where you are challeged to incorporate multiple new
+          technologies into a full stack application, generate a demo, and deliver a presentation within a week. After
+          graduation
+          I realized though that my journey into software development had only just begun.</p>
+        <p>I'm currently working on a
+          React, Redux full stack application to get more comfortable with the Redux flow. Please contact me if you
+          have
+          any interest in my projects. Check out my blog for more on my latest projects!</p>
+        <p>When I'm not coding, I'm outside enjoying the beautiful mountains. I enjoy hiking,
+          fly-fishing, camping, and skiing. I'm a member of social clubs for travel, learning Spanish, and computer
+          programming. I'm a believer in meditation and living a healthy lifestyle.</p>
+      </div>
     </div>
   </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="./assets/pics/silver2.jpg" style="width: 100%; height: auto">
+  <!-- <div style="width: 50%;margin: auto;border-style: solid" class="parallax-container">
+    <div class="parallax">
+      <img src="./assets/pics/jtall.jpeg" style="width: auto; height: auto ">
     </div>
-  </div>
+  </div> -->
 
   <div id="contact" class="section scrollspy white">
     <div class="row container">
-      <h2 class="header">Contact Me</h2>
+      <p class="break"></p>
+      <h4 class="header">CONTACT ME</h4>
+      <p class="break"></p>
+      <span class="contact"></span>
       <div class="row">
         <form name="contact" method="POST" netlify>
           <p>
@@ -118,24 +150,24 @@
           </p>
           <p>
             <label>
-              <input type="checkbox" name="1" value="web" />
-              <span>Web</span>
+              <input class="check" type="checkbox" name="1" value="web" />
+              <span class="checklabel">Web</span>
             </label>
           </p>
           <p>
             <label>
-              <input type="checkbox" name="2" value="mobile" />
-              <span>Mobile</span>
+              <input class="check" type="checkbox" name="2" value="mobile" />
+              <span class="checklabel">Mobile</span>
             </label>
           </p>
           <p>
             <label>
-              <input type="checkbox" name="3" value="game" />
-              <span>Game</span>
+              <input class="check" type="checkbox" class="checkbox" name="3" value="game" />
+              <span class="checklabel">Game</span>
             </label>
           </p>
           <p>
-            <button type="text" class="btn orange accent-4 button" type="submit">Send</button>
+            <button type="text" class="btn button" type="submit">Send</button>
           </p>
         </form>
       </div>
@@ -144,7 +176,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
 </body>
 
 </html>
