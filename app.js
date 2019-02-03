@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const about = document.querySelector(".about")
   const contact = document.querySelector(".contact")
 
-
   logo.textContent = `<Hunt Applegate />`
   title.textContent = `   Software Engineer`
   about.textContent = "``` const dreams = ideas + failures + work^n ```"

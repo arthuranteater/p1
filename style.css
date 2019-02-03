@@ -5,6 +5,17 @@ nav {
   background-color: #293e60;
 }
 
+.brand-logo {
+  padding-left: 10px; 
+  text-align: center;
+}
+
+
+.page-footer {
+  background-color: #293e60
+}
+
+
 .iframe {
   display: block;
   margin: auto;
@@ -34,13 +45,6 @@ nav {
   font-size: 18px;
   font-weight: bold;
 }
-
-/* .header {
-  border-bottom-style: solid;
-  border-bottom-color: #293e60;
-  border-top-style: solid;
-  border-top-color: #293e60;
-} */
 
 .break {
   border-bottom-style: solid;
@@ -117,20 +121,12 @@ button:hover {
 }
 
 
-
 #two {
   background-image: url("./assets/logos/movie-buddy-bg.png");
   background-size: cover;
   font-family: Helvetica;
 }
 
-#three {
-
-}
-
-#four {
-
-}
 
 #mobile-demo {
   width: auto

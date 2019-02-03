@@ -18,12 +18,13 @@
 <body>
   <div class="navbar-fixed">
     <nav class="nav-wrapper" style="font-family: 'Raleway', sans-serif;height: 70px">
-      <a href="index.html" class="brand-logo" style="padding-left: 10px; text-align: center"><span class="name"></span>
+      <a href="index.html" class="brand-logo"><span class="name"></span>
         <span class="title"></span>
       </a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#projects">BLOG</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#resume">RESUME</a></li>
         <li><a href="#contact">CONTACT</a></li>
@@ -35,6 +36,7 @@
 
   <ul class="sidenav" id="mobile-demo">
     <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#projects">BLOG</a></li>
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#resume">RESUME</a></li>
     <li><a href="#contact">CONTACT</a></li>
@@ -50,7 +52,8 @@
           <a href="https://www.whatstheweatherin.com/" target="_blank">
             <h2>What's the Weather In</h2>
           </a>
-          <img src="https://media.giphy.com/media/4T088USxC1i7sovB01/giphy.gif" alt="earth spinning" style="width: auto; height: auto">
+          <img class="earth" src="https://media.giphy.com/media/4T088USxC1i7sovB01/giphy.gif" alt="earth spinning"
+            style="width: auto; height: auto">
           <p class="white-text">Mobile web application that provides a 5-day weather forecast</p>
         </div>
         <div id="two" class="carousel-item black-text" href="#two!">
@@ -86,7 +89,9 @@
       <p class="break"></p>
       <br></br>
       <img src="assets/headshots/jshaun.png">
+
       <br></br>
+
       <span class="about"></span>
 
       <p>Shortly after graduating college, I started my own insurance agency, <a class="inline-link" href="http://wwww.healthadvising.com">Applegate
@@ -137,7 +142,7 @@
       <p class="break"></p>
       <span class="contact"></span>
       <div class="row">
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" netlify style="overflow: auto">
           <p>
             <input type="text" name="name" placeholder="Name" required />
           </p>
@@ -158,6 +163,7 @@
               <input class="check" type="checkbox" name="2" value="mobile" />
               <span class="checklabel">Mobile</span>
             </label>
+
           </p>
           <p>
             <label>
@@ -169,8 +175,18 @@
             <button type="text" class="btn button" type="submit">Send</button>
           </p>
         </form>
+
       </div>
     </div>
+
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Copyright
+        </div>
+      </div>
+    </footer>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
