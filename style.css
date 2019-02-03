@@ -5,6 +5,15 @@ nav {
   background-color: #293e60;
 }
 
+.iframe {
+  display: block;
+  margin: auto;
+}
+
+.inline-link {
+  color: black;
+}
+
 .title {
   font-size: 12px;
 }
